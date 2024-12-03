@@ -1,0 +1,84 @@
+.compra-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #F5F5F5;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: 'Georgia', serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #B22222;
+    margin-bottom: 20px;
+}
+
+.mensagem-boas-vindas {
+    font-size: 1rem;
+    color: #8B0000;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.resumo-encomenda {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #8B0000;
+    margin-bottom: 15px;
+}
+
+.lista-produtos {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.produto-item {
+    font-size: 1rem;
+    color: #444;
+    background: #f3f3f3;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.total-itens,
+.preco-total {
+    font-weight: bold;
+    color: #8B0000;
+    margin-top: 20px;
+}
+
+.morada {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 15px;
+}
+
+.destino {
+    color: #6c63ff;
+}
+
+.botao-voltar {
+    display: inline-block;
+    margin-top: 30px;
+    background: #B22222;
+    color: #FAFAD2;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.botao-voltar:hover {
+    background: #800000;
+    transform: scale(1.05);
+}
+
+.botao-voltar:active {
+    transform: scale(0.98);
+}

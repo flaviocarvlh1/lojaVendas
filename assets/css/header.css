@@ -1,0 +1,44 @@
+.header {
+    background-color: #B22222; 
+    color: #FAFAD2; 
+    padding: 20px 15px; 
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.header h1 {
+    margin: 0 0 10px; 
+    font-size: 2.5em; 
+    color: #FFD700; 
+}
+
+.header ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px; 
+}
+
+.header li {
+    display: inline;
+}
+
+.header a.btn-admin {
+    background-color: #FAFAD2; 
+    color: #B22222; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    font-size: 1em; 
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+}
+
+.header a.btn-admin:hover {
+    background-color: #FFD700; 
+    color: #800000; 
+    transform: scale(1.05);
+}

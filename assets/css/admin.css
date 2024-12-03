@@ -1,0 +1,155 @@
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #8B0000;
+    color: #000;
+}
+
+.welcome {
+    background-color: #B22222;
+    padding: 15px 20px;
+    text-align: center;
+    color: #FAFAD2;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.welcome a {
+    color: #FAFAD2;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 1em;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #F5F5F5;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    background-color: #B22222;
+    color: #FAFAD2;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.form-cadastro {
+    margin-bottom: 30px;
+}
+
+.form-cadastro label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #8B0000;
+}
+
+.form-cadastro input[type="text"],
+.form-cadastro input[type="number"],
+.form-cadastro input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #D2B48C;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 1em;
+    outline-color: #000;
+}
+
+.form-cadastro button {
+    background-color: #B22222;
+    color: #FAFAD2;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 20px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.form-cadastro button:hover {
+    background-color: #800000;
+    transform: scale(1.05);
+}
+
+.form-cadastro button:active {
+    transform: scale(0.98);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+table th, table td {
+    border: 1px solid #D2B48C;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #B22222;
+    color: #FAFAD2;
+    font-size: 1.1em;
+}
+
+table tr:nth-child(even) {
+    background-color: #F9F9F9;
+}
+
+table a {
+    color: #8B0000;
+    text-decoration: none;
+    font-size: 0.95em;
+}
+
+table a:hover {
+    color: #D2B48C;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    .form-cadastro input[type="text"],
+    .form-cadastro input[type="number"],
+    .form-cadastro input[type="date"] {
+        padding: 8px;
+    }
+
+    .form-cadastro button {
+        padding: 10px 15px;
+        font-size: 1em;
+    }
+
+    table th, table td {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+
+    .form-cadastro input[type="text"],
+    .form-cadastro input[type="number"],
+    .form-cadastro input[type="date"] {
+        padding: 6px;
+    }
+
+    .form-cadastro button {
+        padding: 8px 12px;
+        font-size: 0.95em;
+    }
+}

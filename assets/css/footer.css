@@ -1,0 +1,38 @@
+footer {
+    background-color: #B22222; 
+    color: #FAFAD2; 
+    padding: 20px; 
+    text-align: center;
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.15);
+	margin-top: 40px;
+}
+
+footer p {
+    margin: 0 0 10px; 
+    font-size: 1em; 
+}
+
+footer nav ul {
+    list-style: none; 
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px; 
+}
+
+footer nav li {
+    display: inline;
+}
+
+footer nav a {
+    color: #FAFAD2; 
+    text-decoration: none; 
+    font-size: 0.9em; 
+    font-weight: bold; 
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+footer nav a:hover {
+    color: #FFD700; 
+    transform: scale(1.05);
+}

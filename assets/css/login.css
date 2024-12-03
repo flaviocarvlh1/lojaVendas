@@ -1,0 +1,115 @@
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #8B0000;
+    color: #FAFAD2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    background-color: #B22222;
+    color: #FAFAD2;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 500px;
+}
+
+form {
+    max-width: 500px;
+    width: 100%;
+    background-color: #F5F5F5;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #8B0000;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #D2B48C;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 1em;
+    outline-color: #B22222;
+}
+
+form button {
+    background-color: #B22222;
+    color: #FAFAD2;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 20px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+form button:hover {
+    background-color: #800000;
+    transform: scale(1.05);
+}
+
+form button:active {
+    transform: scale(0.98);
+}
+
+form .back {
+    margin-top: 10px;
+    color: #8B0000;
+    text-decoration: none;
+    font-size: 0.95em;
+    text-align: center;
+}
+
+form .back:hover {
+    color: #D2B48C;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    form input[type="text"],
+    form input[type="password"] {
+        padding: 8px;
+    }
+
+    form button {
+        padding: 10px 15px;
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    form {
+        padding: 15px;
+    }
+
+    form input[type="text"],
+    form input[type="password"] {
+        padding: 6px;
+    }
+
+    form button {
+        padding: 8px 12px;
+        font-size: 0.95em;
+    }
+}
